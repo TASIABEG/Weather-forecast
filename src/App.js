@@ -14,6 +14,7 @@ const App = () => {
     const fetchWeatherData = async () => {
       if (!city) return;
 
+      console.log("Selected city:", city);
       setLoading(true);
       setError(null);
 
